@@ -1,0 +1,8 @@
+Pour caméra:
+https://raspberry-lab.fr/Composants/Utilisation-Camera-sur-Raspberry-Pi-Francais/
+sudo apt-get install python3-picamera
+sudo apt-get install -y gpac
+MP4Box -add video.h264 video.mp4
+
+Pour DHT22:
+
