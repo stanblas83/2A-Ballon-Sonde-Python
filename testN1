@@ -1,0 +1,16 @@
+AllumeCamera()
+
+f = open ( 'données.txt' , 'w' )
+f.write  ( 'Température,Altitude,Heure,' )
+f.close()
+n=0
+h=0
+while n<=10 : 
+	retourALaLigne()
+	sleep( 10 )
+	ajouter( '20' )
+	ajouter( '100' )
+	h=h+10
+	ajouter( str( h ) )
+
+EteintCamera()
