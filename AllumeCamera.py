@@ -1,6 +1,5 @@
 import picamera
 
-def AllumeCamera()
-  camera=picamera.Picamera()
+def AllumeCamera(camera)
   camera.start_recording(Video+".h264")
   return
