@@ -4,5 +4,3 @@ def ajouter ( donnee ):
 	f.write(str(donnee)+';')
 	f.close()
 	
-
-### '\n' retour Ã  la ligne 
