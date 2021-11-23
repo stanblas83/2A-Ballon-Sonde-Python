@@ -1,6 +1,5 @@
 import picamera
 
-def EteintCamera()
-  camera=picamera.Picamera()
+def EteintCamera(camera)
   camera.stop_recording()
   return
