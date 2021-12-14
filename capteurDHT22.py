@@ -1,12 +1,12 @@
 import adafruit_dht
-from board import <pin>
+from board import GPIO4
 
-def InitialisationDHT22(pin):
-  dht_device = adafruit_dht.DHT22(<pin>)
-  return dht_device
+def Initialisation():
+	dht_device = adafruit_dht.DHT22(GPIO4)
+  	return dht_device
 
 def Temperature(sensor):
-  return sensor.temperature
+	return str(sensor.temperature)
 
 def Humidite(sensor):
-  return sensor.humidity
+	return str(sensor.humidity)
